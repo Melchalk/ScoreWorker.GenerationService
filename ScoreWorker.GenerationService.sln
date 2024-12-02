@@ -5,6 +5,18 @@ VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerationService", "src\GenerationService\GenerationService.csproj", "{8B8859FB-086A-4437-B6B7-73893609CBF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerationService.Broker", "GenerationService.Broker\GenerationService.Broker.csproj", "{0FC15F1C-716D-44ED-B859-FAF03DA5E6D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerationService.Business", "GenerationService.Business\GenerationService.Business.csproj", "{2F3FEFC2-1D71-4335-9D13-DDBB4BB00F1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerationService.Data", "GenerationService.Data\GenerationService.Data.csproj", "{8013DE44-3961-4ACF-B305-51243E340C3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerationService.DataProvider.PostgreSql.Ef", "GenerationService.DataProvider.PostgreSql.Ef\GenerationService.DataProvider.PostgreSql.Ef.csproj", "{EB060272-9009-4481-806C-4267B9337E7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerationService.Models.Dto", "GenerationService.Models.Dto\GenerationService.Models.Dto.csproj", "{74E967F1-AC89-463C-9C92-0DDF7D564885}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerationService.Models.Db", "GenerationService.Models.Db\GenerationService.Models.Db.csproj", "{44BE95D2-95BE-454B-8896-EBEAC6979804}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +27,30 @@ Global
 		{8B8859FB-086A-4437-B6B7-73893609CBF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B8859FB-086A-4437-B6B7-73893609CBF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B8859FB-086A-4437-B6B7-73893609CBF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FC15F1C-716D-44ED-B859-FAF03DA5E6D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC15F1C-716D-44ED-B859-FAF03DA5E6D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC15F1C-716D-44ED-B859-FAF03DA5E6D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC15F1C-716D-44ED-B859-FAF03DA5E6D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F3FEFC2-1D71-4335-9D13-DDBB4BB00F1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F3FEFC2-1D71-4335-9D13-DDBB4BB00F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F3FEFC2-1D71-4335-9D13-DDBB4BB00F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F3FEFC2-1D71-4335-9D13-DDBB4BB00F1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8013DE44-3961-4ACF-B305-51243E340C3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8013DE44-3961-4ACF-B305-51243E340C3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8013DE44-3961-4ACF-B305-51243E340C3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8013DE44-3961-4ACF-B305-51243E340C3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB060272-9009-4481-806C-4267B9337E7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB060272-9009-4481-806C-4267B9337E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB060272-9009-4481-806C-4267B9337E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB060272-9009-4481-806C-4267B9337E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74E967F1-AC89-463C-9C92-0DDF7D564885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74E967F1-AC89-463C-9C92-0DDF7D564885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74E967F1-AC89-463C-9C92-0DDF7D564885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74E967F1-AC89-463C-9C92-0DDF7D564885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44BE95D2-95BE-454B-8896-EBEAC6979804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44BE95D2-95BE-454B-8896-EBEAC6979804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44BE95D2-95BE-454B-8896-EBEAC6979804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44BE95D2-95BE-454B-8896-EBEAC6979804}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
