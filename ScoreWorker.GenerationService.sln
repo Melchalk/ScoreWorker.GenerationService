@@ -9,13 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerationService.Broker", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerationService.Business", "src\GenerationService.Business\GenerationService.Business.csproj", "{4C25BD93-1773-4210-9C65-560AA73166DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerationService.Data", "src\GenerationService.Data\GenerationService.Data.csproj", "{A86564BB-B47B-48EE-AAB9-43A5EFB19FEE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerationService.DataProvider.PostgreSql.Ef", "src\GenerationService.DataProvider.PostgreSql.Ef\GenerationService.DataProvider.PostgreSql.Ef.csproj", "{D25BE9F9-495C-44A7-A54B-F1930C5FA192}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerationService.Models.Db", "src\GenerationService.Models.Db\GenerationService.Models.Db.csproj", "{3DDB0223-D88F-4A07-9583-3263A034F441}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerationService.Models.Dto", "src\GenerationService.Models.Dto\GenerationService.Models.Dto.csproj", "{997D795D-1E5F-4AFD-91F2-54E0E7660392}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerationService.RefitApi", "src\GenerationService.RefitApi\GenerationService.RefitApi.csproj", "{36954B49-A726-4BBE-A621-30E19B34F9FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerationService.PromptHelpers", "GenerationService.PromptHelpers\GenerationService.PromptHelpers.csproj", "{380A5359-357E-4E1C-A032-995A35047258}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,22 +33,18 @@ Global
 		{4C25BD93-1773-4210-9C65-560AA73166DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C25BD93-1773-4210-9C65-560AA73166DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C25BD93-1773-4210-9C65-560AA73166DB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A86564BB-B47B-48EE-AAB9-43A5EFB19FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A86564BB-B47B-48EE-AAB9-43A5EFB19FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A86564BB-B47B-48EE-AAB9-43A5EFB19FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A86564BB-B47B-48EE-AAB9-43A5EFB19FEE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D25BE9F9-495C-44A7-A54B-F1930C5FA192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D25BE9F9-495C-44A7-A54B-F1930C5FA192}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D25BE9F9-495C-44A7-A54B-F1930C5FA192}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D25BE9F9-495C-44A7-A54B-F1930C5FA192}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3DDB0223-D88F-4A07-9583-3263A034F441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3DDB0223-D88F-4A07-9583-3263A034F441}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3DDB0223-D88F-4A07-9583-3263A034F441}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3DDB0223-D88F-4A07-9583-3263A034F441}.Release|Any CPU.Build.0 = Release|Any CPU
 		{997D795D-1E5F-4AFD-91F2-54E0E7660392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{997D795D-1E5F-4AFD-91F2-54E0E7660392}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{997D795D-1E5F-4AFD-91F2-54E0E7660392}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{997D795D-1E5F-4AFD-91F2-54E0E7660392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36954B49-A726-4BBE-A621-30E19B34F9FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36954B49-A726-4BBE-A621-30E19B34F9FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36954B49-A726-4BBE-A621-30E19B34F9FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36954B49-A726-4BBE-A621-30E19B34F9FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{380A5359-357E-4E1C-A032-995A35047258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{380A5359-357E-4E1C-A032-995A35047258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{380A5359-357E-4E1C-A032-995A35047258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{380A5359-357E-4E1C-A032-995A35047258}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
