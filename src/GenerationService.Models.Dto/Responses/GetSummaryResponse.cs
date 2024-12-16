@@ -1,4 +1,6 @@
-﻿namespace GenerationService.Models.Dto.DTO;
+﻿using GenerationService.Models.Dto.DTO;
+
+namespace GenerationService.Models.Dto.Responses;
 
 public class GetSummaryResponse
 {

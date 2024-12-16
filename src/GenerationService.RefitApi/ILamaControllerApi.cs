@@ -8,8 +8,8 @@ namespace GenerationService.RefitApi;
 /// </summary>
 public interface ILamaControllerApi
 {
-    public const string VkScoreWorkerApi = "";
+    public const string LamaApi = "";
 
     [Post("/generate")]
-    public Task<string> GenerateScore([Body] GenerateScoreRequest request);
+    public Task<string> GenerateScore([Body] GenerateLamaRequest request);
 }

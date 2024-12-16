@@ -10,4 +10,9 @@
     <Folder Include="Consumers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GenerationService.Business\GenerationService.Business.csproj" />
+    <ProjectReference Include="..\GenerationService.Models.Dto\GenerationService.Models.Dto.csproj" />
+  </ItemGroup>
+
 </Project>

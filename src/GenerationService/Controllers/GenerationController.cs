@@ -12,4 +12,11 @@ namespace GenerationService.Controllers;
 public class GenerationController : ControllerBase
 {
 
+    [HttpGet("generate")]
+    public void GenerateScores(
+        [FromQuery] Guid userId,
+        CancellationToken cancellationToken)
+    {
+
+    }
 }

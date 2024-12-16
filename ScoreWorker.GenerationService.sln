@@ -13,7 +13,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerationService.Models.Dt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerationService.RefitApi", "src\GenerationService.RefitApi\GenerationService.RefitApi.csproj", "{36954B49-A726-4BBE-A621-30E19B34F9FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerationService.PromptHelpers", "GenerationService.PromptHelpers\GenerationService.PromptHelpers.csproj", "{380A5359-357E-4E1C-A032-995A35047258}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E10B1D89-A588-4A3E-868C-0BD4883D6D43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deploy", "deploy", "{DA0DBEA4-A2A8-45EB-9E82-3DC289DB85D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "prompts", "prompts", "{3B32034E-FF9A-4EB2-9089-7E78351ADCCC}"
+	ProjectSection(SolutionItems) = preProject
+		src\GenerationService\MainPrompt.txt = src\GenerationService\MainPrompt.txt
+		src\GenerationService\OpinionPrompt.txt = src\GenerationService\OpinionPrompt.txt
+		src\GenerationService\OwnReviewsPrompt.txt = src\GenerationService\OwnReviewsPrompt.txt
+		src\GenerationService\SelfPrompt.txt = src\GenerationService\SelfPrompt.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerationService.PromptHelpers", "src\GenerationService.PromptHelpers\GenerationService.PromptHelpers.csproj", "{AEEA5283-0638-4F9C-A7E3-E4763E28F69A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,12 +53,20 @@ Global
 		{36954B49-A726-4BBE-A621-30E19B34F9FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36954B49-A726-4BBE-A621-30E19B34F9FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36954B49-A726-4BBE-A621-30E19B34F9FF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{380A5359-357E-4E1C-A032-995A35047258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{380A5359-357E-4E1C-A032-995A35047258}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{380A5359-357E-4E1C-A032-995A35047258}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{380A5359-357E-4E1C-A032-995A35047258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEEA5283-0638-4F9C-A7E3-E4763E28F69A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEEA5283-0638-4F9C-A7E3-E4763E28F69A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEEA5283-0638-4F9C-A7E3-E4763E28F69A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEEA5283-0638-4F9C-A7E3-E4763E28F69A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B8859FB-086A-4437-B6B7-73893609CBF8} = {E10B1D89-A588-4A3E-868C-0BD4883D6D43}
+		{9C5FD2F6-EF48-42C4-8BEC-E112CB47AAD7} = {E10B1D89-A588-4A3E-868C-0BD4883D6D43}
+		{4C25BD93-1773-4210-9C65-560AA73166DB} = {E10B1D89-A588-4A3E-868C-0BD4883D6D43}
+		{997D795D-1E5F-4AFD-91F2-54E0E7660392} = {E10B1D89-A588-4A3E-868C-0BD4883D6D43}
+		{36954B49-A726-4BBE-A621-30E19B34F9FF} = {E10B1D89-A588-4A3E-868C-0BD4883D6D43}
+		{AEEA5283-0638-4F9C-A7E3-E4763E28F69A} = {E10B1D89-A588-4A3E-868C-0BD4883D6D43}
 	EndGlobalSection
 EndGlobal

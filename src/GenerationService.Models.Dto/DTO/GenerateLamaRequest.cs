@@ -2,7 +2,7 @@
 
 namespace GenerationService.Models.Dto.DTO;
 
-public class GenerateScoreRequest
+public class GenerateLamaRequest
 {
     [JsonPropertyName("prompt")]
     public required string Prompt { get; set; }

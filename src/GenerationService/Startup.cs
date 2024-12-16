@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using GenerationService.Business;
+using GenerationService.Business.Interfaces;
 using GenerationService.Infrastructure.Mapper;
 using GenerationService.Infrastructure.Middlewares;
 using MassTransit;
@@ -90,6 +92,6 @@ internal class Startup(IConfiguration configuration)
 
     private void ConfigureDI(IServiceCollection services)
     {
-        //services.AddScoped<IDataProvider, SummaryServiceDbContext>();
+        services.AddScoped<IGenerateScoreCommand, GenerateScoreCommand>();
     }
 }
