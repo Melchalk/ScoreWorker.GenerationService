@@ -7,8 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\GenerationService.Models.Dto\GenerationService.Models.Dto.csproj" />
-    <ProjectReference Include="..\src\GenerationService.RefitApi\GenerationService.RefitApi.csproj" />
+    <PackageReference Include="Refit" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GenerationService.Models.Dto\GenerationService.Models.Dto.csproj" />
+    <ProjectReference Include="..\GenerationService.RefitApi\GenerationService.RefitApi.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,5 +1,6 @@
 ﻿using GenerationService.Models.Dto.DTO;
 using GenerationService.Models.Dto.Enum;
+using GenerationService.Models.Dto.Responses;
 using GenerationService.PromptHelpers.Interfaces;
 using System.Text.RegularExpressions;
 

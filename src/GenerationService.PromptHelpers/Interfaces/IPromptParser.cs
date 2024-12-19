@@ -1,4 +1,5 @@
 ﻿using GenerationService.Models.Dto.DTO;
+using GenerationService.Models.Dto.Responses;
 
 namespace GenerationService.PromptHelpers.Interfaces;
 

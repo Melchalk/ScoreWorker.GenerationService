@@ -40,9 +40,9 @@ public class PromptHandler : IPromptHandler
     private async Task<string> EvaluateReviewsWithLLM(
         string prompt, CancellationToken cancellationToken)
     {
-        var apiService = RestService.For<ILamaControllerApi>(ILamaControllerApi.VkScoreWorkerApi);
+        var apiService = RestService.For<ILamaControllerApi>(ILamaControllerApi.LamaApi);
 
-        var request = new GenerateScoreRequest()
+        var request = new GenerateLamaRequest()
         {
             Prompt = prompt,
             ApplyChatTemplate = true,

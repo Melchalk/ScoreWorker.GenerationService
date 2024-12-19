@@ -4,7 +4,7 @@ namespace GenerationService.Models.Dto.Responses;
 
 public class GetSummaryResponse
 {
-    public int IDUnderReview { get; set; }
+    public Guid UnderReviewID { get; set; }
     public required string Summary { get; set; }
     public double Score { get; set; }
 
